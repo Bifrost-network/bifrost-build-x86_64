@@ -12,7 +12,7 @@ while read L; do
 		     drivers/ide drivers/gpio /staging/ /virtio/ drivers/power/ \
  		     /leds/ input/misc/ input/mouse/ drivers/spi/ powercap usb-serial-simple \
 		     dm-persistent-data dm-cache /bcache/ /ntb/ /rds/ \
-                     raid6 block/nbd acerhdf ; do
+                     raid6 block/nbd acerhdf /kvm/ ; do
 		if [[ $L =~ $unsup ]]; then
 			strip --strip-unneeded $L
 			echo UNSUP: $L
