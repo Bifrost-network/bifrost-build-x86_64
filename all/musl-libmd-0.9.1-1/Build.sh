@@ -37,7 +37,7 @@ pkg_install pkg-config-0.23-1 || exit 2
 pkg_install musl-apr-1.5.2-1 || exit 2
 pkg_install musl-apr-util-1.5.3-1 || exit 2
 pkg_install musl-zlib-1.2.8-2 || exit 2
-pkg_install musl-apache-devel-2.4.27-1 || exit 2
+pkg_install musl-apache-devel-2.4.27-2 || exit 2
 
 # Compile against musl:
 pkg_install musl-1.1.16-1 || exit 2 
