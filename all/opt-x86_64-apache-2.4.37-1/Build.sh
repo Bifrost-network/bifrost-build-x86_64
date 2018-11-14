@@ -28,9 +28,9 @@ pkg_uninstall # Uninstall any dependencies used by Fetch-source.sh
 # Install dependencies:
 # pkg_available dependency1-1 dependency2-1
 pkg_install musl-zlib-1.2.8-2 || exit 2
-pkg_install musl-openssl-1.1.1-1 || exit 2
+pkg_install musl-openssl-1.0.2p-1 || exit 2
 pkg_install musl-apr-1.6.5-1 || exit 2
-pkg_install musl-apr-util-1.6.1-1 || exit 2
+pkg_install musl-apr-util-1.6.1-2 || exit 2
 pkg_install musl-expat-2.2.6-1 || exit 2
 pkg_install musl-pcre-8.30-2 || exit 2
 pkg_install musl-libxml2-2.9.3-1 || exit 2
